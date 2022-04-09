@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-`This project deploy is going to be available soon... `
+`This project deploy will be available soon... `
 
 ### Built with
 
