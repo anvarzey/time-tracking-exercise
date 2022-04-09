@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="user-card">
+        <div class="main-container">
+          <div class="inside-main-container">
+            <img
+              class="picture"
+              src="images/image-jeremy.png"
+              alt="user picture"
+            />
+            <div class="sub-inside">
+              <div class="report">Report for</div>
+              <div class="user-name">Jeremy Robson</div>
+            </div>
+          </div>
+        </div>
+        <div class="filter-container">
+          <div class="filter-text">
+            <input class="radio-btn" type="radio" name="periodSelector" id="dailySelector">
+            <label class="filter" id="dailyButton" for="dailySelector">Daily</label>
+            <input class="radio-btn" type="radio" name="periodSelector" id="weeklySelector">
+            <label class="filter" id="weeklyButton" for="weeklySelector">Weekly</label>
+            <input class="radio-btn" type="radio" name="periodSelector" id="monthlySelector">
+            <label class="filter" id="monthlyButton" for="monthlySelector">Monthly</label>
+          </div>
+        </div>
+      </div>
+      <div class="card work-card">
+        <div class="card-inside-container">
+          <div class="category-name">Work</div>
+          <div class="feature"><img src="images/icon-ellipsis.svg" alt="ellipsis icon"></div>
+          <div class="category-result"><span id="actualWork"></span>hrs</div>
+          <div class="last-week-result">Last <span id="lastPeriod"></span> - <span id="lastWork"></span>hrs</div>
+        </div>
+      </div>
+      <div class="card play-card">
+          <div class="card-inside-container">
+            <div class="category-name">Play</div>
+            <div class="feature"><img src="images/icon-ellipsis.svg" alt="ellipsis icon"></div>
+            <div class="category-result"><span id="actualPlay"></span>hrs</div>
+            <div class="last-week-result">Last <span id="lastPeriod2"></span> - <span id="lastPlay"></span>hrs</div>
+          </div>
+      </div>
+      <div class="card study-card">
+          <div class="card-inside-container">
+            <div class="category-name">Study</div>
+            <div class="feature"><img src="images/icon-ellipsis.svg" alt="ellipsis icon"></div>
+            <div class="category-result"><span id="actualStudy"></span>hrs</div>
+            <div class="last-week-result">Last <span id="lastPeriod3"></span> - <span id="lastStudy"></span>hrs</div>
+        </div>
+      </div>
+      <div class="card exercise-card">
+        <div class="card-inside-container">
+          <div class="category-name">Exercise</div>
+          <div class="feature"><img src="images/icon-ellipsis.svg" alt="ellipsis icon"></div>
+          <div class="category-result"><span id="actualExercise"></span>hrs</div>
+          <div class="last-week-result">Last <span id="lastPeriod4"></span> - <span id="lastExercise"></span>hrs</div>
+        </div>
+      </div>
+      <div class="card social-card">
+        <div class="card-inside-container">
+          <div class="category-name">Social</div>
+          <div class="feature"><img src="images/icon-ellipsis.svg" alt="ellipsis icon"></div>
+          <div class="category-result"><span id="actualSocial"></span>hrs</div>
+          <div class="last-week-result">Last <span id="lastPeriod5"></span> - <span id="lastSocial"></span>hrs</div>
+        </div>
+      </div>
+      <div class="card self-care-card">
+        <div class="card-inside-container">
+          <div class="category-name">Self Care</div>
+          <div class="feature"><img src="images/icon-ellipsis.svg" alt="ellipsis icon"></div>
+          <div class="category-result"><span id="actualSelfCare"></span>hrs</div>
+          <div class="last-week-result">Last <span id="lastPeriod6"></span> - <span id="lastSelfCare"></span>hrs</div>
+        </div>
+      </div>
+    </div>
+<script src="index.js"></script>
+  </body>
+</html>
